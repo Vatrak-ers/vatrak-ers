@@ -25,8 +25,9 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
 		font-weight: bold;
+		font-style: italic;
+		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -39,6 +40,7 @@
 	body {
 		line-height: 1;
 		font-weight: bold;
+		
 	}
 
 	ol, ul {
@@ -112,9 +114,11 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Quicksand", Source Sans Pro, sans-serif, Arial, sans-serif;  /* "Source Sans Pro", sans-serif; 8/
 		font-size: 16pt;
-		font-weight: 300;
+		
+		font-weight: 300; /* kkp */
+		font-weight: bold; /* kkp */  
 		line-height: 1.65em;
 		letter-spacing: -0.015em;
 	}
@@ -149,7 +153,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #646464;
 		font-weight: 300;
-		line-height: 1em;
+		font-weight: bold;  /*kkp 
+		line-height: 1em; */
 		margin: 0 0 0.5em 0;
 	}
 
@@ -2187,6 +2192,7 @@
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
+				font-family: "Quicksand", Source Sans Pro, sans-serif, Arial, sans-serif;
 				font-weight: 900;
 			}
 
@@ -3165,7 +3171,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/Group-photo.jpg"), url("../../images/Group-photo.jpg");
+		background-image: url("images/P03013233_1.jpeg"), url("images/city15.jpeg"),   url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3547,7 +3553,7 @@
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 5 Free'; 
 						font-weight: 900;
 					}
 
