@@ -3171,7 +3171,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/P03013233_1.jpeg"), url("images/city15.jpeg"),   url("../../images/banner.jpg");
+		background-image: url("../../images/groupphoto.jpg"), url("images/city15.jpeg"),   url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
