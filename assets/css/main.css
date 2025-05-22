@@ -3171,13 +3171,15 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/groupphoto.jpg"), url("images/city15.jpeg"),   url("../../images/banner.jpg");
+		background-image: url("images/groupphoto.jpg");
 		background-position: top center, left, center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+		text-vertical-align: bottom;   /* kkp */
+		
 	}
 
 		#banner :last-child {
